@@ -1,0 +1,122 @@
+# ========================
+# Node.js / Backend
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+
+# ✅ Removed yarn.lock so it can be tracked
+# ✅ package-lock.json and pnpm-lock.yaml are not ignored by default, so they’ll be tracked
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+tmp/
+temp/
+
+# ========================
+# Frontend (React / TS / Webpack / Vite)
+# ========================
+# React build
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Vite cache
+.vite/
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# Nuxt.js
+.nuxt/
+.nuxt-dist/
+
+# Vue.js
+.vuepress/dist
+.vscode
+
+# SvelteKit
+.svelte-kit/
+
+# Angular
+.angular/
+
+# ========================
+# Databases
+# ========================
+# Mongo
+dump/
+*.bson
+*.mongodump
+*.json
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# OS / Misc
+# ========================
+.DS_Store
+Thumbs.db
+*.iml
+*.bak
+*.tmp
+*.orig
+
+# ========================
+# Testing
+# ========================
+jest-html-reporters-*.html
+test-results/
+playwright-report/
+.pnp/
+.pnp.js
+
+# ========================
+# Docker
+# ========================
+.docker/
+docker-compose.override.yml
+
+# Always track package.json and package-lock.json
+!package.json
+!package-lock.json
+# ✅ Always track PDF files
+!*.pdf
