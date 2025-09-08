@@ -27,7 +27,6 @@
   text-shadow: 0 0 20px rgba(255, 211, 61, 0.4);
 }
 
-/* Optional: Add a subtle GitHub logo background pattern */
 #heading::before {
   content: "";
   position: absolute;
